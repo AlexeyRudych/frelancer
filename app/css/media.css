@@ -1,0 +1,139 @@
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+.h-nav li{
+    margin-right: 30px;
+}
+.h-nav a{
+    font-size: 13px
+}
+.slogan h1{
+  font-size: 40px;
+}
+.sloganButton{
+  width: 165px;
+  height: 54px;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+ .h-nav li{
+    margin-right: 20px;
+}
+.slogan h1{
+  font-size: 30px;
+}
+.sloganButton{
+  width: 125px;
+  height: 44px;
+}
+header{
+  background-position: center;
+  height: 857px;
+  }
+.s0-content{
+    margin-top: 30px!important;
+  }
+.mt-300{
+margin-top: 150px;
+  }
+.mt-100{
+  margin-top: 50px;
+}
+.mt-50{
+  margin-top: 30px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  header{
+  background-position: 650px;
+  height: 757px;
+  }
+  .contentPortfolio{
+    display: flex;
+    justify-content: center;
+  }
+  .contentCenter{
+    display: flex;
+    justify-content: center;
+  }
+  .s0-content{
+     display: flex;
+    justify-content: center;
+  }
+  .menuIconMenu{
+    display: none;
+  }
+.h-nav li{
+    display: block;
+}
+.h-nav a{
+    font-size: 12px;
+}
+.h-nav{
+  display: none;
+}
+.h-nav-min{
+  display: block
+}
+.slogan h1{
+  font-size: 20px;
+  line-height: 30px;
+}
+.slogan div{
+  font-size: 15px;
+}
+.sloganButton div{
+  font-size: 10px;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .contentTeam p{
+    line-height: 15px;
+    margin: 0;
+  }
+  .contentPortfolio p{
+  line-height: 15px;
+  }
+  header{
+  background-position: 500px;
+  height: 757px;
+  }
+  .h-nav li{
+    margin-right: 13px;
+}
+.h-nav a{
+    margin-left: 20px;
+    font-size: 8px;
+}
+  }
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /**/ }
+
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  /**/ }
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  /**/ }
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  /**/ }
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /**/ }
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /**/ }
